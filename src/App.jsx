@@ -1,9 +1,14 @@
-import "./App.css";
+import './App.css';
+import RedButton from './components/RedButton';
+import GreenButton from './components/GreenButton';
+import BlueButton from './components/BlueButton';
 
 function App() {
   return (
     <>
-      <h1>Hello React</h1>
+      <RedButton />
+      <GreenButton />
+      <BlueButton/>
     </>
   );
 }
