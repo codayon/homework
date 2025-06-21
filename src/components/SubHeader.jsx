@@ -1,9 +1,5 @@
-import React from 'react'
+const SubHeader = ({ className, SubHeaderText }) => {
+  return <h4 className={`${className}`}>{SubHeaderText}</h4>;
+};
 
-const SubHeader = () => {
-  return (
-    <div>SubHeader</div>
-  )
-}
-
-export default SubHeader
+export default SubHeader;
