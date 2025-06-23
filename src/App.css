@@ -3,7 +3,8 @@
   --color-accent: #5e3bee;
   --color-accent-hover: #4d2ecb;
   --color-black-hover: #555555;
-  --color-hero: #f9f9fc;
-  --color-gray-number: #121212;
+  --color-off-white: #f9f9fc;
+  --color-gray-below: #121212;
+  --color-dimmed-black: #333333;
   --font-poppins: 'Poppins', 'sans-serif';
 }

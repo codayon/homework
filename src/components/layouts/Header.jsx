@@ -9,7 +9,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Header = () => {
   return (
-    <Section className={'py-7 bg-hero'}>
+    <Section className={'py-7 bg-off-white'}>
       <Container>
         <Flex className={'justify-between'}>
           <Logo />
