@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import BannerImage from '../../assets/BannerImage';
+import Information from '../layouts/Information';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <BannerImage />
+      <Information />
+    </>
+  );
+};
 
-export default Home
+export default Home;
