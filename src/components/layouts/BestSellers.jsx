@@ -57,7 +57,7 @@ const BestSellers = () => {
               <p className="text-gray-a">$44.00</p>
             </Flex>
             <span className="absolute top-5 left-5 bg-black-a text-white font-bold px-8 py-2.5">
-              10%
+              New
             </span>
           </div>
           <div className={'relative group'}>
