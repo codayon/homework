@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Ads = () => {
   return (
-    <section className="pt-44 pb-16">
+    <section className="pt-24 pb-12">
       <Container>
         <Flex className={'gap-x-10'}>
           <div>
