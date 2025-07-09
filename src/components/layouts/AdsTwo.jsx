@@ -1,5 +1,5 @@
 import React from 'react';
-import AdImg from '../../assets/ad-4.png';
+import AdImg from '../../assets/images/ad-4.png';
 import Container from '../Container';
 import { Link } from 'react-router-dom';
 

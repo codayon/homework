@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImage from '../../assets/BannerImage';
+import Banner from '../layouts/Banner';
 import Information from '../layouts/Information';
 import Ads from '../layouts/Ads';
 import NewArrivals from '../layouts/NewArrivals';
@@ -10,7 +10,7 @@ import SpecialOffers from '../layouts/SpecialOffers';
 const Home = () => {
   return (
     <>
-      <BannerImage />
+      <Banner />
       <Information />
       <Ads />
       <NewArrivals />

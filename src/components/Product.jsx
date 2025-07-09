@@ -1,7 +1,7 @@
 import React from 'react';
 import Flex from './Flex';
 import { FaHeart, FaShoppingCart } from 'react-icons/fa';
-import Compare from '../assets/Compare';
+import Compare from '../assets/icons/Compare';
 import { Link } from 'react-router-dom';
 
 const Product = ({ imgSrc, imgAlt, productName, price, badgeName }) => {

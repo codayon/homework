@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
-import ProductOne from '../../assets/product-1.png';
-import ProductTwo from '../../assets/product-2.png';
-import ProductThree from '../../assets/product-3.png';
-import ProductFour from '../../assets/product-4.png';
+import ProductOne from '../../assets/images/product-1.png';
+import ProductTwo from '../../assets/images/product-2.png';
+import ProductThree from '../../assets/images/product-3.png';
+import ProductFour from '../../assets/images/product-4.png';
 import Product from '../Product';
 
 const NewArrivals = () => {
@@ -12,7 +12,7 @@ const NewArrivals = () => {
     <section className="py-12">
       <Container>
         <h4 className="text-black-a font-bold text-4xl ">New Arrivals</h4>
-        <Flex className={'justify-between py-12'}>
+        <Flex className={'justify-between pt-12'}>
           <Product
             imgSrc={ProductOne}
             imgAlt={'ProductOne'}

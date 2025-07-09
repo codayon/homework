@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
-import HeaderLogo from '../../assets/HeaderLogo';
+import HeaderLogo from '../HeaderLogo';
 import { Link } from 'react-router-dom';
-import CategoryFilter from '../../assets/CategoryFilter';
+import CategoryFilter from '../../assets/icons/CategoryFilter';
 import { FaSearch, FaUser, FaCaretDown, FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
@@ -51,24 +51,34 @@ const Header = () => {
       <section className={'py-6 bg-gray-b'}>
         <Container>
           <Flex className={'justify-between'}>
-            <Flex className="gap-x-3">
-              <CategoryFilter />
-              <p className="text-black-a">Shop by Category</p>
-            </Flex>
+            <Link to={'/'}>
+              <Flex className="gap-x-3">
+                <CategoryFilter />
+                <p className="text-black-a">Shop by Category</p>
+              </Flex>
+            </Link>
             <Flex>
               <input
                 type="text"
                 placeholder="Search Products"
                 className="bg-white placeholder-gray-c py-4 px-5 outline-0 w-[32rem]"
               />
-              <FaSearch className="-translate-x-8" />
+              <Link to={'/'}>
+                <FaSearch className="-translate-x-8" />
+              </Link>
             </Flex>
             <Flex className="gap-x-10">
               <Flex className={'gap-x-2'}>
-                <FaUser />
-                <FaCaretDown />
+                <Link to={'/'}>
+                  <FaUser />
+                </Link>
+                <Link to={'/'}>
+                  <FaCaretDown />
+                </Link>
               </Flex>
-              <FaShoppingCart />
+              <Link to={'/'}>
+                <FaShoppingCart />
+              </Link>
             </Flex>
           </Flex>
         </Container>

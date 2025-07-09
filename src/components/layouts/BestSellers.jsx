@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
-import ProductOne from '../../assets/product-5.png';
-import ProductTwo from '../../assets/product-6.png';
-import ProductThree from '../../assets/product-7.png';
-import ProductFour from '../../assets/product-8.png';
+import ProductOne from '../../assets/images/product-5.png';
+import ProductTwo from '../../assets/images/product-6.png';
+import ProductThree from '../../assets/images/product-7.png';
+import ProductFour from '../../assets/images/product-8.png';
 import Product from '../Product';
 
 const BestSellers = () => {

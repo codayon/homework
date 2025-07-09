@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
-import ProductOne from '../../assets/product-9.png';
-import ProductTwo from '../../assets/product-10.png';
-import ProductThree from '../../assets/product-11.png';
-import ProductFour from '../../assets/product-12.png';
+import ProductOne from '../../assets/images/product-9.png';
+import ProductTwo from '../../assets/images/product-10.png';
+import ProductThree from '../../assets/images/product-11.png';
+import ProductFour from '../../assets/images/product-12.png';
 import Product from '../Product';
 
 const SpecialOffers = () => {

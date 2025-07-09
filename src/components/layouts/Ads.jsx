@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
-import AdImgOne from '../../assets/ad-1.png';
-import AdImgTwo from '../../assets/ad-2.png';
-import AdImgThree from '../../assets/ad-3.png';
+import AdImgOne from '../../assets/images/ad-1.png';
+import AdImgTwo from '../../assets/images/ad-2.png';
+import AdImgThree from '../../assets/images/ad-3.png';
 import { Link } from 'react-router-dom';
 
 const Ads = () => {
